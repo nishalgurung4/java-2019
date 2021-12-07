@@ -6,12 +6,3 @@ abstract class Dog  extends Animal
 	}
 
 }
-
-
-class Husky extends Dog
-{
-	public void bath()
-	{
-		
-	}
-}
