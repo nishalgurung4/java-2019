@@ -1,0 +1,4 @@
+class Cow extends Animal
+{
+
+}
