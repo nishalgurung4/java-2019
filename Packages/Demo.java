@@ -1,5 +1,5 @@
-import np.edu.gces.*;
-class Demo
+import np.edu.gces.MyDate;
+public class Demo
 {
 	public static void main(String[] args)
 	{
