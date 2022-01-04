@@ -2,15 +2,19 @@ import java.awt.Frame;
 import java.awt.Button;
 class FrameWithInheritance extends Frame
 {
-	public static void main(String[] args)
+	public FrameWithInheritance()
 	{
-		FrameWithInheritance fw = new FrameWithInheritance();
 		Button button = new Button("Click Me!");
 		button.setBounds(30,100,80,30);
-		fw.add(button);
+		add(button);
 
-		fw.setSize(900, 900);
-		fw.setLayout(null);
-		fw.setVisible(true);
+		setSize(900, 900);
+		setLayout(null);
+		setVisible(true);
+	}
+	public static void main(String[] args)
+	{
+		new FrameWithInheritance();
+		
 	}
 }
