@@ -2,7 +2,7 @@ import java.awt.Button;
 import java.awt.Frame;
 class FrameWithAssociation
 {
-	public FrameWithAssociation()
+	public static void main(String[] args)
 	{
 		Frame frame = new Frame("This is frame title");
 		Button button = new Button("Click Me!");
@@ -12,11 +12,6 @@ class FrameWithAssociation
 
 		frame.setLayout(null);
 		frame.setVisible(true);
-
-	}
-	public static void main(String[] args)
-	{
-		new FrameWithAssociation();
 	}
 
 }
